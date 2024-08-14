@@ -752,8 +752,15 @@ hr {
   margin-bottom: 1rem;
   color: var(--secondary-text-color);
   color: yellow;
+  position: relative;
+  cursor: pointer;
 }
-
+#mail-show:hover::after {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  padding: 5px;
+}
 
 
 /* More About Container */
